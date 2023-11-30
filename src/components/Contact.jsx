@@ -25,7 +25,7 @@ const Contact = () => {
 
           <div className="flexColStart mt-[2rem] gap-4">
             {/* first row */}
-            <div className="flexStart gap-6">
+            <div className="flex sm:flex-row flex-col items-center justify-center gap-6">
               <div className="flexColCenter sm:w-[16rem] w-[14rem] p-4 border-[0.8px] border-solid border-rgba(128,128,128,0.143) rounded-md gap-4 transition-all duration-300 ease-in hover:scale-110 hover:shadow">
                 <div className="flexStart w-[100%] gap-6">
                   <div className="flexStart bg-[#eeeeff] p-3 rounded-md text-blue ">
@@ -56,7 +56,7 @@ const Contact = () => {
               </div>
             </div>
             {/* second row */}
-            <div className="flexStart gap-6">
+            <div className="flex sm:flex-row flex-col items-center justify-center gap-6">
               <div className="flexColCenter sm:w-[16rem] w-[14rem] p-4 border-[0.8px] border-solid border-rgba(128,128,128,0.143) rounded-md gap-4 transition-all duration-300 ease-in hover:scale-110 hover:shadow">
                 <div className="flexStart w-[100%] gap-6">
                   <div className="flexStart bg-[#eeeeff] p-3 rounded-md text-blue ">

@@ -17,12 +17,12 @@ const Value = () => {
       <div id="our-value" className="paddings innerWidth flexCenter">
         {/* left side */}
         <div className="sm:flex-1 flex items-center justify-center">
-          <div className="sm:w-[30rem] sm:h-[35rem] w-[23rem] h-[27rem] overflow-hidden rounded-t-[15rem] border-8 border-solid border-rgb(232,232,232)">
+          <div className="sm:w-[30rem] sm:h-[35rem] w-[18rem] h-[22rem] overflow-hidden rounded-t-[15rem] border-8 border-solid border-rgb(232,232,232)">
             <img src="./value.png" alt="value" className="w-[100%] h-[100%]" />
           </div>
         </div>
         {/* right side */}
-        <div className="flexColStart flex-1 gap-2">
+        <div className="flexColStart flex-1 gap-2 mt-8">
           <span className="text-orange-500 sm:text-[1.5rem] text-[1.2rem] font-[600]">
             Our Value
           </span>

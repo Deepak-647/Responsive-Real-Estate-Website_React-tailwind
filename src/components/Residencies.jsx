@@ -18,11 +18,11 @@ const Residencies = () => {
   return (
     <section>
       <div id="residencies" className="paddings innerWidth overflow-hidden">
-        <div className="flex  items-center sm:items-start justify-center flex-col">
+        <div className="flex flex-col items-center sm:items-start justify-center">
           <span className="text-orange-500 text-[1.5rem] font-[600]">
             Best Choices
           </span>
-          <span className="text-primary text-[2rem] font-bold">
+          <span className="text-primary text-[2rem] font-bold text-center">
             Popular Residencies
           </span>
         </div>
